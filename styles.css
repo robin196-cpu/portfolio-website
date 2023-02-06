@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.section1 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.section1-child1 {
+  padding: 10%;
+  width: 30%;
+}
+.section1-child1 h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.section1-child1 p {
+  font-size: 25px;
+  color: rgb(165, 158, 158);
+}
+.section1-child1 span {
+  text-transform: uppercase;
+  color: orange;
+}
+.section1-button {
+  margin-top: 20px;
+}
+.section1-button button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}
+.button1 {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.icon1 {
+  background-color: #0973f9;
+}
+.icon2 {
+  background-color: #0d80a3;
+}
+.icon3 {
+  background-color: #42598f;
+}
+.icon4 {
+  background-color: #0d507c;
+}
+.icon5 {
+  background-color: #59abff;
+}
+.section1-child2 {
+  width: 50%;
+}
+.section1-child2 img {
+  width: 70%;
+}
+.section2 {
+  width: 90%;
+  display: flex;
+  margin: 30px auto;
+}
+.section2-child {
+  width: 24%;
+  padding: 3% 5%;
+  text-align: center;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px #888888;
+}
+.section2-child h1 {
+  font-size: 70px;
+  padding: 5px 0 15px 0;
+}
+.section2-child h3 {
+  margin-top: 5px;
+}
+.section2-child button {
+  padding: 8px 30px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+#button1 {
+  background-color: #fc3178;
+}
+#button2 {
+  background-color: #3eb4f0;
+}
+#button3 {
+  background-color: #ffda45;
+}
+.section2-child2 {
+  margin-left: 4%;
+}
+.section3 {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.section3-img {
+  width: 50%;
+}
+.section3-img img {
+  width: 100%;
+}
+.section3-content {
+  width: 40%;
+  padding: 5%;
+}
+.section3-content h1 {
+  font-size: 50px;
+  color: gainsboro;
+}
+.section3-content button {
+  padding: 8px 30px;
+  margin-top: 20px;
+  border: none;
+  font-weight: 900;
+}
+.section4 {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+progress {
+  border: none;
+  width: 700px;
+  height: 10px;
+  background: red;
+}
+
+progress {
+  color: orange;
+}
+
+progress::-webkit-progress-value {
+  background: orange;
+}
+
+progress::-moz-progress-bar {
+  background: orange;
+}
+.progress-td {
+  padding: 12px 70px 0 70px;
+}
+.progress-bar {
+  padding: 1% 10% 10% 10%;
+  font-size: 20px;
+  font-weight: 900;
+}
+.footer-div {
+  padding: 20px;
+  text-align: center;
+}
